@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MINI PROJECT</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        
+        body {
+            background-color: #FFDAB9; /* Peach-orange background */
+            color: black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Times New Roman', sans-serif;
+        }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin-top: 20px;
+        }
+        img {
+            width: 150px; /* Set the image width to be small */
+            height: auto;
+        }
+        .text-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex: 1;
+            text-align: center;
+            margin-top: 20px; /* Add margin to create space between the image and heading */
+        }
+        h1 {
+            font-family: 'Lobster', cursive;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            margin-top: 0px; /* Adjust this value to move the heading higher or lower */
+        }
+        h2 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            color: black;
+            font-style: italic;
+        }
+        p {
+            margin: 20px;
+            font-family: 'Book Antiqua', serif;
+            font-size: 1.2em;
+            text-align: center;
+            line-height: 1.5;
+            color: black;
+        }
+        .link-container {
+            margin-bottom: 20px;
+        }
+        .link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Green background */
+            color: white; /* White text */
+            text-decoration: none; /* Remove underline */
+            border-radius: 5px; /* Rounded corners */
+            transition: background-color 0.3s;
+        }
+        .link:hover {
+            background-color: #45a049; /* Darker green on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="D:\ENGG\6th sem\draitlogo.jpg" alt="Centered Image">
+    </div>
+    <div class="text-container">
+        <h1>Calories Burnt Prediction</h1>
+        <h2>Project by Roopitha G Nayak (1DA21IS040) and Shreyas D (1DA21IS048)</h2>
+        <p>Calories are units of energy that our bodies use to perform various functions, from basic biological processes to physical activities. 
+        Technically, a calorie is the amount of heat needed to raise the temperature of one gram of water by one degree Celsius. Calorie burnt prediction by machine learning algorithms aims to predict the number of calories burnt by an individual during physical activity using machine learning techniques. 
+        We collected a dataset that includes features such as heart rate, body temperature, and duration of activity. We used various machine learning models, including XGBoost, linear regression, SVM, ADABoost, random forest, etc., to predict calorie burn based on 15,000 records with seven features. 
+        The results we obtain from various models are compared, and the most accurate one is chosen for further prediction. However, this depends on their age, size, height, lifestyle, overall health, and activity level. As such, many more factors than just how many calories a person consumes play a role in maintaining weight.</p>
+        
+    </div>
+    <div class="link-container">
+        <a href="http://localhost:8888/notebooks/miniproject.ipynb" class="link">Visit Code and see the output</a>
+    </div>
+    <div class="link-container">
+        <a href="https://drive.google.com/drive/folders/1RjaQy0iANgwQjHph0guGB-VxG-AqN-iB?usp=drive_link" class="link">Drive Link TO Check The Datasets</a>
+    </div>
+</body>
+</html>
